@@ -1,0 +1,326 @@
+:root {
+  /* Font Sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 22px;
+  --font-size-3xl: 24px;
+  --font-size-4xl: 28px;
+  --font-size-5xl: 32px;
+  --font-size-6xl: 40px;
+  --font-size-7xl: 48px;
+  --font-size-8xl: 56px;
+  --font-size-9xl: 64px;
+  --font-size-10xl: 72px;
+
+  /* Font Family */
+  --font-family-base: 'Helvetica Now Display';
+  --font-family-heading: 'Maison Neue Extended';
+
+  /* Font Weight */
+  --font-weight-xs: 300;
+  --font-weight-sm: 400;
+  --font-weight-md: 500;
+  --font-weight-lg: 700;
+
+  /* Letter Spacing */
+  --letter-spacing-xs: 0.3;
+  --letter-spacing-sm: 0.5;
+  --letter-spacing-md: 1.5;
+
+  /* Line Height */
+  --line-height-xs: 16px;
+  --line-height-sm: 20px;
+  --line-height-md: 24px;
+  --line-height-lg: 26px;
+  --line-height-xl: 28px;
+  --line-height-2xl: 32px;
+  --line-height-3xl: 36px;
+  --line-height-4xl: 40px;
+  --line-height-5xl: 52px;
+  --line-height-6xl: 64px;
+  --line-height-7xl: 72px;
+  --line-height-8xl: 96px;
+
+  /* Colors */
+  --color-error-40: #fbe5e5;
+  --color-error-60: #de3543;
+  --color-error-80: #5c0008;
+  --color-neutral-0: #ffffff;
+  --color-neutral-10: #f1f3f2;
+  --color-neutral-15: #d6dcd9;
+  --color-neutral-20: #d6dcd9;
+  --color-neutral-40: #9fada7;
+  --color-neutral-60: #52605a;
+  --color-neutral-80: #3b4540;
+  --color-neutral-90: #292929;
+  --color-neutral-100: #292929;
+  --color-primary-20: #e1ffa8;
+  --color-primary-40: #8edb00;
+  --color-primary-60: #4f9e00;
+  --color-primary-80: #317500;
+  --color-primary-90: #1c4200;
+  --color-primary-100: #1c4200;
+  --color-secondary-20: #97daff;
+  --color-secondary-40: #1b75dd;
+  --color-secondary-60: #1661b8;
+  --color-warning-40: #ffeec2;
+  --color-warning-60: #b88a00;
+  --color-warning-80: #5c4200;
+  --color-informational-40: #e5fcff;
+  --color-informational-60: #007d8f;
+  --color-informational-80: #002d33;
+
+  /* Spacing X */
+  --spacing-xxs: 2px;
+  --spacing-xsm: 4px;
+  --spacing-xmd: 8px;
+  --spacing-xlg: 10px;
+  --spacing-xxl: 12px;
+  --spacing-x2xl: 14px;
+  --spacing-x3xl: 16px;
+  --spacing-x4xl: 18px;
+  --spacing-x5xl: 20px;
+  --spacing-x6xl: 24px;
+  --spacing-x7xl: 28px;
+  --spacing-x8xl: 32px;
+  --spacing-x9xl: 36px;
+  --spacing-x10xl: 40px;
+  --spacing-x11xl: 44px;
+  --spacing-x12xl: 48px;
+  --spacing-x13xl: 52px;
+  --spacing-x14xl: 56px;
+  --spacing-x15xl: 60px;
+  --spacing-x16xl: 64px;
+  --spacing-x17xl: 68px;
+  --spacing-x18xl: 72px;
+  --spacing-x19xl: 76px;
+  --spacing-x20xl: 80px;
+  --spacing-x21xl: 96px;
+  --spacing-x22xl: 128px;
+  --spacing-x23xl: 160px;
+
+  /* Spacing Y */
+  --spacing-yxs: 2px;
+  --spacing-ysm: 4px;
+  --spacing-ymd: 8px;
+  --spacing-ylg: 10px;
+  --spacing-yxl: 12px;
+  --spacing-y2xl: 14px;
+  --spacing-y3xl: 16px;
+  --spacing-y4xl: 18px;
+  --spacing-y5xl: 20px;
+  --spacing-y6xl: 24px;
+  --spacing-y7xl: 28px;
+  --spacing-y8xl: 32px;
+  --spacing-y9xl: 36px;
+  --spacing-y10xl: 40px;
+  --spacing-y11xl: 44px;
+  --spacing-y12xl: 48px;
+  --spacing-y13xl: 52px;
+  --spacing-y14xl: 56px;
+  --spacing-y15xl: 60px;
+  --spacing-y16xl: 64px;
+  --spacing-y17xl: 68px;
+  --spacing-y18xl: 72px;
+  --spacing-y19xl: 76px;
+  --spacing-y20xl: 80px;
+  --spacing-y21xl: 96px;
+  --spacing-y22xl: 128px;
+  --spacing-y23xl: 160px;
+
+  /* Spacing Bottom */
+  --spacing-bottom-xs: 2px;
+  --spacing-bottom-sm: 4px;
+  --spacing-bottom-md: 8px;
+  --spacing-bottom-lg: 10px;
+  --spacing-bottom-xl: 12px;
+  --spacing-bottom-2xl: 14px;
+  --spacing-bottom-3xl: 16px;
+  --spacing-bottom-4xl: 18px;
+  --spacing-bottom-5xl: 20px;
+  --spacing-bottom-6xl: 24px;
+  --spacing-bottom-7xl: 28px;
+  --spacing-bottom-8xl: 32px;
+  --spacing-bottom-9xl: 36px;
+  --spacing-bottom-10xl: 40px;
+  --spacing-bottom-11xl: 44px;
+  --spacing-bottom-12xl: 48px;
+  --spacing-bottom-13xl: 52px;
+  --spacing-bottom-14xl: 56px;
+  --spacing-bottom-15xl: 60px;
+  --spacing-bottom-16xl: 64px;
+  --spacing-bottom-17xl: 68px;
+  --spacing-bottom-18xl: 72px;
+  --spacing-bottom-19xl: 76px;
+  --spacing-bottom-20xl: 80px;
+  --spacing-bottom-21xl: 96px;
+  --spacing-bottom-22xl: 128px;
+  --spacing-bottom-23xl: 160px;
+
+  /* Spacing Right */
+  --spacing-right-xs: 2px;
+  --spacing-right-sm: 4px;
+  --spacing-right-md: 8px;
+  --spacing-right-lg: 10px;
+  --spacing-right-xl: 12px;
+  --spacing-right-2xl: 14px;
+  --spacing-right-3xl: 16px;
+  --spacing-right-4xl: 18px;
+  --spacing-right-5xl: 20px;
+  --spacing-right-6xl: 24px;
+  --spacing-right-7xl: 28px;
+  --spacing-right-8xl: 32px;
+  --spacing-right-9xl: 36px;
+  --spacing-right-10xl: 40px;
+  --spacing-right-11xl: 44px;
+  --spacing-right-12xl: 48px;
+  --spacing-right-13xl: 52px;
+  --spacing-right-14xl: 56px;
+  --spacing-right-15xl: 60px;
+  --spacing-right-16xl: 64px;
+  --spacing-right-17xl: 68px;
+  --spacing-right-18xl: 72px;
+  --spacing-right-19xl: 76px;
+  --spacing-right-20xl: 80px;
+  --spacing-right-21xl: 96px;
+  --spacing-right-22xl: 128px;
+  --spacing-right-23xl: 160px;
+
+  /* Spacing Top */
+  --spacing-top-xs: 2px;
+  --spacing-top-sm: 4px;
+  --spacing-top-md: 8px;
+  --spacing-top-lg: 10px;
+  --spacing-top-xl: 12px;
+  --spacing-top-2xl: 14px;
+  --spacing-top-3xl: 16px;
+  --spacing-top-4xl: 18px;
+  --spacing-top-5xl: 20px;
+  --spacing-top-6xl: 24px;
+  --spacing-top-7xl: 28px;
+  --spacing-top-8xl: 32px;
+  --spacing-top-9xl: 36px;
+  --spacing-top-10xl: 40px;
+  --spacing-top-11xl: 44px;
+  --spacing-top-12xl: 48px;
+  --spacing-top-13xl: 52px;
+  --spacing-top-14xl: 56px;
+  --spacing-top-15xl: 60px;
+  --spacing-top-16xl: 64px;
+  --spacing-top-17xl: 68px;
+  --spacing-top-18xl: 72px;
+  --spacing-top-19xl: 76px;
+  --spacing-top-20xl: 80px;
+  --spacing-top-21xl: 96px;
+  --spacing-top-22xl: 128px;
+  --spacing-top-23xl: 160px;
+
+  /* Spacing Left */
+  --spacing-left-xs: 2px;
+  --spacing-left-sm: 4px;
+  --spacing-left-md: 8px;
+  --spacing-left-lg: 10px;
+  --spacing-left-xl: 12px;
+  --spacing-left-2xl: 14px;
+  --spacing-left-3xl: 16px;
+  --spacing-left-4xl: 18px;
+  --spacing-left-5xl: 20px;
+  --spacing-left-6xl: 24px;
+  --spacing-left-7xl: 28px;
+  --spacing-left-8xl: 32px;
+  --spacing-left-9xl: 36px;
+  --spacing-left-10xl: 40px;
+  --spacing-left-11xl: 44px;
+  --spacing-left-12xl: 48px;
+  --spacing-left-13xl: 52px;
+  --spacing-left-14xl: 56px;
+  --spacing-left-15xl: 60px;
+  --spacing-left-16xl: 64px;
+  --spacing-left-17xl: 68px;
+  --spacing-left-18xl: 72px;
+  --spacing-left-19xl: 76px;
+  --spacing-left-20xl: 80px;
+  --spacing-left-21xl: 96px;
+  --spacing-left-22xl: 128px;
+  --spacing-left-23xl: 160px;
+
+  /* Radius */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 10px;
+  --radius-2xl: 12px;
+  --radius-3xl: 14px;
+  --radius-4xl: 16px;
+  --radius-5xl: 18px;
+  --radius-6xl: 20px;
+  --radius-7xl: 22px;
+  --radius-8xl: 24px;
+  --radius-pill: 500px;
+  --radius-round: 5000px;
+
+  /* Motion */
+  --motion-xs: 0.2s;
+  --motion-sm: 0.4s;
+  --motion-md: 0.6s;
+  --motion-lg: 0.8s;
+  --motion-xl: 1.0s;
+
+  /* Opacity */
+  --opacity-xs: 0.050;
+  --opacity-sm: 0.100;
+  --opacity-md: 0.250;
+  --opacity-lg: 0.500;
+  --opacity-xl: 0.750;
+  --opacity-2xl: 0.900;
+  --opacity-3xl: 0.950;
+
+  /* Stroke */
+  --stroke-xs: 1px;
+  --stroke-sm: 2px;
+  --stroke-md: 4px;
+  --stroke-lg: 8px;
+
+  /* Shadow */
+  --shadow-xs: 0px 2px 5px rgba(199, 206, 201, 0.16), 0px 0px 1px rgba(165, 174, 167, 0.90);
+  --shadow-sm: 0px 12px 12px rgba(0, 0, 0, 0.08), 0px 0px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0px 16px 12px -8px rgba(0, 0, 0, 0.16), 0px 16px 8px -12px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0px 28px 64px rgba(31, 45, 39, 0.16);
+
+  /* Breakpoints */
+  --breakpoints-xs: 320;
+  --breakpoints-sm: 360;
+  --breakpoints-md: 375;
+  --breakpoints-lg: 400;
+  --breakpoints-xl: 480;
+  --breakpoints-2xl: 600;
+  --breakpoints-3xl: 768;
+  --breakpoints-4xl: 880;
+  --breakpoints-5xl: 1024;
+  --breakpoints-6xl: 1280;
+  --breakpoints-7xl: 1366;
+  --breakpoints-8xl: 1440;
+  --breakpoints-9xl: 1920;
+
+  /* Elevation */
+  --elevation-xs: 2;
+  --elevation-sm: 8;
+  --elevation-md: 24;
+
+  /* Shadow Opacity & Radius & Offset */
+  --shadow-opacity-xs: 0.8;
+  --shadow-opacity-sm: 0.16;
+  --shadow-radius-xs: 5;
+  --shadow-radius-sm: 12;
+  --shadow-radius-md: 20;
+  --shadow-radius-lg: 64;
+  --shadow-offset-height-xs: 2;
+  --shadow-offset-height-sm: 8;
+  --shadow-offset-height-md: 16;
+  --shadow-offset-height-lg: 28;
+  --shadow-offset-width-xs: 0;
+}

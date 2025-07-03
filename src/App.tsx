@@ -13,7 +13,7 @@ function App() {
 
         <div className="flex flex-row mt-5 gap-8 border border-zinc-100 rounded-lg p-6 bg-gray-50">
           <div className="flex-1">
-            <h3 className="text-lg font-medium mb-4 pb-2 border-zinc-300 border-b">Input</h3>
+            <h3 className="text-lg font-bold mb-4 pb-2 text-primary-90 border-zinc-300 border-b">Input</h3>
             <div className="space-y-4">
               <InputBaseUI />
             </div>
